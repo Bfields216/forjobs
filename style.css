@@ -8,19 +8,32 @@
     margin-left: 230px;
 }
 #portvibe{
-    background-color: antiquewhite;
+    
+    background-color: rgba(78, 180, 175, 0.644);
 }
 #header2{
     margin-left: 218px;
     border: solid;
-    background: white;
+    background: scroll;
+    color: white;
 }
 .counter{
-    background-color: darkslategray
+    background-color: darkslategray;
 }
 #vision{
-    background-color: mediumspringgreen
+    background-color: mediumspringgreen;
 }
 #offer{
-    background: yellow
+    background: yellow;
+}
+#contact-info{
+    margin-left: 400px;
+    border: solid;
+    margin-right: 395px;
+    color: darkred;
+}
+#resume-s{
+    background: #ce1b1b91;
+    height: 150px;
+    margin-top: 10px;
 }
