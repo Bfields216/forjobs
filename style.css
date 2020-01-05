@@ -16,6 +16,7 @@
     border: solid;
     background: scroll;
     color: white;
+    margin-top: 250px;
 }
 /* .counter{
     background-color: darkslategray;
@@ -24,7 +25,9 @@
     background-color: mediumspringgreen;
 } */
 #offer{
-    background: yellow;
+    background: rgba(78, 180, 175, 0.644);
+    color: beige;
+    
 }
 #contact-info{
     margin-left: 400px;
@@ -37,3 +40,77 @@
     height: 150px;
     margin-top: 10px;
 }
+#msk{
+    margin-left: 500px;
+    font-size: xx-large;
+}
+#title1{
+    font-size: xx-large;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 250px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgba(145,13,13,.8);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 40px;
+    padding: 45px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 10px 16px 25px 17px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #070707;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-github-square {
+    margin-left: 80px;
+    margin-top: -58px;
+  }
+  
+  .fa-linkedin-square {
+   
+    color: white;
+    margin-left: 40px;
+    margin-top: -61px;
+  }
+  #midview{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+  }
+  .personal-content{
+    font-size: x-large;
+    color: black;
+  }
