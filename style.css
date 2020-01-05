@@ -96,7 +96,7 @@
   }
   .fa-github-square {
     margin-left: 80px;
-    margin-top: -58px;
+    margin-top: -61px;
   }
   
   .fa-linkedin-square {
@@ -113,4 +113,12 @@
   .personal-content{
     font-size: x-large;
     color: black;
+  }
+  #pp1{
+    font-size: x-large;
+    color: beige;
+    /* margin: inherit; */
+    padding: 85px;
+    margin-left: 311px;
+   
   }
