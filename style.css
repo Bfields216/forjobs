@@ -7,12 +7,19 @@
 #h2{
     margin-left: 230px;
 }
-#portvibe{
+/* #portvibe{
     
-    background-color: rgba(78, 180, 175, 0.644);
-}
+    background-color: rgba(141, 140, 80, 0.473);  
+}  */
 #header2{
     margin-left: 218px;
+    border: solid;
+    background: scroll;
+    color: white;
+    margin-top: 250px;
+}
+#header3{
+    margin-left: 350px;
     border: solid;
     background: scroll;
     color: white;
@@ -50,7 +57,7 @@
 
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 250px; /* Set the width of the sidebar */
+    width: 350px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
