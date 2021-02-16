@@ -15,7 +15,7 @@
     margin-left: 218px;
     border: solid;
     background: scroll;
-    color: white;
+    
 }
 /* .counter{
     background-color: darkslategray;
@@ -23,17 +23,23 @@
 /* #vision{
     background-color: mediumspringgreen;
 } */
-#offer{
+/* #offer{
     background: yellow;
-}
+} */
 #contact-info{
     margin-left: 400px;
     border: solid;
     margin-right: 395px;
-    color: darkred;
+    /* color: darkred; */
 }
 #resume-s{
-    background: #ce1b1b91;
+    /* background: #ce1b1b91; */
     height: 150px;
     margin-top: 10px;
 }
+
+ #skillsheader{
+    margin-left: 475px;
+} 
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
