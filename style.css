@@ -15,15 +15,7 @@
     margin-left: 218px;
     border: solid;
     background: scroll;
-    color: white;
-    margin-top: 250px;
-}
-#header3{
-    margin-left: 350px;
-    border: solid;
-    background: scroll;
-    color: white;
-    margin-top: 250px;
+    
 }
 /* .counter{
     background-color: darkslategray;
@@ -31,22 +23,21 @@
 /* #vision{
     background-color: mediumspringgreen;
 } */
-#offer{
-    background: rgba(78, 180, 175, 0.644);
-    color: beige;
-    
-}
+/* #offer{
+    background: yellow;
+} */
 #contact-info{
     margin-left: 400px;
     border: solid;
     margin-right: 395px;
-    color: darkred;
+    /* color: darkred; */
 }
 #resume-s{
-    background: #ce1b1b91;
+    /* background: #ce1b1b91; */
     height: 150px;
     margin-top: 10px;
 }
+<<<<<<< HEAD
 #msk{
     margin-left: 500px;
     font-size: xx-large;
@@ -214,3 +205,11 @@
     opacity: 1;
   }
   
+=======
+
+ #skillsheader{
+    margin-left: 475px;
+} 
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+>>>>>>> fe265f37d7e662f9fb828ab113b35d5924546720
