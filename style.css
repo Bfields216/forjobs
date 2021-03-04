@@ -37,9 +37,170 @@
     height: 150px;
     margin-top: 10px;
 }
+#msk{
+    margin-left: 500px;
+    font-size: xx-large;
+}
+#title1{
+    font-size: xx-large;
+}
+.sidenav {
+  height: 151%;
+  width: 260px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #711414;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
 
- #skillsheader{
-    margin-left: 475px;
-} 
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
 
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-github-square {
+    margin-left: 80px;
+    margin-top: -61px;
+  }
+  
+  .fa-linkedin-square {
+   
+    color: white;
+    margin-left: 40px;
+    margin-top: -61px;
+  }
+  #midview{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+  }
+  .personal-content{
+    font-size: x-large;
+    color: black;
+  }
+  #pp1{
+    font-size: x-large;
+    color: beige;
+    /* margin: inherit; */
+    padding: 85px;
+    margin-left: 311px;
+   
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 11px 17px;
+    color: red;
+    font-family: fantasy;
+    font-size: large;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
